@@ -1,0 +1,209 @@
+/* You can add global styles to this file, and also import other style files */
+.Logo2
+{font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    
+    }
+
+.Add_p {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 40px;
+    position: fixed;
+    top: 80%;
+    right: 20px;
+    
+    
+  }
+  button {
+    cursor: pointer;
+  }
+
+  #h1 {
+    font-weight: bold;
+   text-align: center;
+   font-size: 3em;
+   color: #CE8706;
+   }
+  
+
+
+#h2 {
+    font-weight: bold;
+   text-align: center;
+   font-size: 2em;
+}
+
+footer {
+    background-color:black;
+    position:fixed;
+    bottom: 0;
+    width: calc(100vw - 34px);
+    
+  
+   
+    
+
+}
+
+ #Admin {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    background-color: rgb(0, 0, 0);
+    width: 32px;
+    height: 32px;
+}
+form input{
+background-color:00FF00 ;
+}
+label{
+    font-weight:bold;
+}
+
+#Produits  {
+
+background-color: #00FF00;
+font-weight : weight;
+
+flex: 0 0  calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+
+
+}
+#Produit button {
+    margin-top: 10px;
+}
+#Produits td{
+    text-align: center;
+
+}
+#imgProduit 
+{
+max-width : 100%;
+height: 129px;
+
+
+
+}
+.imgProduit 
+{
+max-width : 100%;
+height: 129px;
+
+
+
+}
+
+
+.btBuy {
+    position : center;
+    background-color: #CE8706;
+    font-weight : bold;
+    text-decoration-color: white;
+    text-align: center;
+
+}
+.product-container {
+    text-align: center;
+}
+header {
+    
+    text-align: center;
+
+    
+}
+.RESEARCH {
+
+text-align : center;
+
+
+}
+#btSearch {
+    background-color: #00FF00;
+}
+#barre {
+    border: 2px solid lightgreen;
+}
+.les_tableaux
+{   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+}
+ul{
+   color : white;
+}
+iframe  {
+    width : 100%;
+    
+   
+   
+    
+
+
+
+}
+
+.table, .big_table {
+    width: 100vw;
+    background-color: #28c845;
+  }
+  .les_tabs tr  {
+      text-align: center  !important;
+      
+      
+  }
+
+
+
+
+
+
+#age {
+    margin-right: 20px; /* Add margin to the right side of the age td */
+  }
+  
+  
+  
+  
+
+ #par_age,#par_genre, #par_categories {
+    display : none ;
+    margin-top: 10px;
+    background-color: #28c845;
+    
+    
+}
+.selectH{
+    width: 33.33%; /* Each select takes up 33.33% of the width */
+    background-color: green; /* Set background color of select */
+    /*color: white; /* Set text color of select */
+    border: none; /* Remove default border */
+    padding: 10px; /* Add padding for better appearance */
+    margin-right: 10px; /* Add some space between selects */
+    height: 50px; /* Increase select height */
+    text-align: center;
+  }
+  .selectH  option {
+    font-weight: bold; /* Make option text bold */
+    vertical-align: -webkit-baseline-middle; /* Align option text vertically in the middle */
+  }
+  .myForm {
+    /*background-color: green;*/
+    width: 100%;
+    padding: 20px;
+    /*box-sizing: border-box; /* Ensures padding is included in width */
+    display: flex; /* Display selects in a row */
+    align-items: center; /* Vertically center selects */
+  }
+  #img_Placeholder{
+    width : 100px;
+    height: 100px;
+  }
